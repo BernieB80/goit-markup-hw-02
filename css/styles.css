@@ -2,12 +2,11 @@
   root {
   --iris: #4d5ae5;
   --navy-blue: #2e2f42;
-  --nav-color: black;
   --ocean: #404bbf;
   --white: #ffffff;
   --slate: #434455;
   --cloud: #f4f4fd;
-  --cornflower, #e7e9fc
+  --cornflower: #e7e9fc
 }
 
 .link-logo {
@@ -167,7 +166,7 @@
   letter-spacing: 0.4px;
 }
 
-.decs-list {
+.desc-list {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
