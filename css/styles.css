@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"); */
 
 :root {
   --iris: #4d5ae5;
@@ -81,8 +81,8 @@ body {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.04em;
 }
 
 .bg-team {
@@ -97,14 +97,15 @@ body {
   border-radius: 4px;
   line-height: 1.5;
   font-weight: 500;
-  font-family: -inherit;
+  font-family: inherit;
 }
 
-.btn.filter:hover,
-.btn.filter:focus {
+.button.primary {
+  background-color: var(--iris);
   color: var(--white);
-  background-color: var(--ocean);
-  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .button.primary:hover,
@@ -131,9 +132,8 @@ body {
   font-weight: 500;
 }
 
-.desc-list {
+.benefits .description {
   color: var(--slate);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.17;
@@ -163,20 +163,22 @@ body {
 }
 
 .project {
-  color: var(--navyblue);
-  font-family: Roboto;
+  text-decoration: none;
+}
+
+.project .name {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--navy-blue);
 }
 
 .project .type {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.87;
 }
 
 .bg-footer {
