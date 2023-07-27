@@ -7,7 +7,7 @@
   --white: #ffffff;
   --slate: #434455;
   --cloud: #f4f4fd;
-  --cornflower, #e7e9fc
+  --cornflower: #e7e9fc;
 }
 
 .link-logo {
@@ -108,7 +108,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
-  text-align: center;
   letter-spacing: 1.12px;
 }
 
@@ -123,7 +122,7 @@
   border-radius: 4px;
   background-color: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: var(--white,#ffffff);
+  color: var(--white, #ffffff);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -151,7 +150,7 @@
 }
 
 .btn.filter:hover,
-.btn.filter:focus{
+.btn.filter:focus {
   color: var(--white, #ffffff);
   background-color: var(--ocean, #404bbf);
   border-radius: 4px;
@@ -167,7 +166,7 @@
   letter-spacing: 0.4px;
 }
 
-.decs-list {
+.desc-list {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
@@ -208,13 +207,13 @@
 }
 
 .project {
-  color: var(--navyblue, #2E2F42);
+  color: var(--navyblue, #2e2f42);
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.4px;  
+  letter-spacing: 0.4px;
 }
 
 .service-type {
@@ -224,7 +223,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.32px;  
+  letter-spacing: 0.32px;
 }
 
 .footer-bg {
