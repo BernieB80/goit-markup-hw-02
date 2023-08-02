@@ -30,6 +30,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+
 .logo {
   color: var(--iris);
 }
@@ -58,12 +59,12 @@ body {
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
-.contacs-menu .item:hover,
-.contacts-menu .item:focus {
+.contacs-menu .contact:hover,
+.contacts-menu .contact:focus {
   color: var(--ocean);
 }
 
-.contacts-menu .item {
+.contacts-menu .contact {
   color: var(--slate);
   font-size: 16px;
   font-weight: 400;
